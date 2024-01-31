@@ -1,6 +1,6 @@
 # Assignment 1
 
-This assignment demonstrates some basic stuff about the .md markup language.
+This assignment demonstrates some basic stuff about the markdown language.
 
 ## Styling
 
@@ -19,3 +19,16 @@ bar = math.ceil(foo)
 # Print bar
 print(bar)
 ```
+
+You can mimic a CLI with the `>` symbol before a line (eg. ping my firebase server).
+> curl https://helloworld-xdo7f45bxa-uc.a.run.app
+
+## Links
+
+Links can be relative to a repository.
+
+- [Relative link to test.py](test.py)
+
+Links can also lead to external websites like my other github projects.
+
+- [Website of my exchange university](https://www.tugraz.at/home)
