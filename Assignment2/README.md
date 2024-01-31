@@ -21,7 +21,7 @@ print(bar)
 ```
 
 You can mimic a CLI with the `>` symbol before a line (eg. ping my firebase server).
-> curl https://helloworld-xdo7f45bxa-uc.a.run.app
+> curl <https://helloworld-xdo7f45bxa-uc.a.run.app>
 
 ## Links
 
