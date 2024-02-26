@@ -5,7 +5,8 @@ I am recycling parts of an older project for Intro to Web Development that can b
 
 ## Cool stuff in here
 - Custom horizontal rule
-- Relative links (to the about subsection)
+- Relative links to parts inside index.html
+- Relative links to other pages (in the navbar)
 - Absolute header that dynamically changes as you scroll down
 - Link to my GitHub
 
