@@ -1,0 +1,49 @@
+:root {
+  --primary: #2f2f2f;
+  --secondary: #525252;
+  --accent: #77a0ec;
+  --text: #e2e2e2;
+}
+
+/* This is for font coloring */
+* {
+  font-family: 'ArchivoNarrowRegular';
+  font-style: normal;
+  color: var(--text);
+}
+
+body {
+  background-color: var(--primary);
+}
+
+.container header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 80%;
+  margin: auto;
+  background-color: var(--secondary);
+  border-radius: 20px;
+}
+
+.container > * {
+  flex: 1;
+}
+
+img {
+  width: 300px;
+  margin-bottom: 30px;
+  align-self: center;
+}
+
+header {
+  font-size: larger;
+}
+
+a {
+  color: var(--accent);
+}
+
+header h1 {
+  align-self: center;
+}
