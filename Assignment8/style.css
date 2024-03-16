@@ -1,0 +1,122 @@
+:root {
+  --color-green: #4297A0;
+  --color-ivory: #F4EAE6;
+  --color-coral: #E57F84;
+  --color-blue: #2F5061;
+}
+
+* {
+  font-family: arial, sans-serif;
+}
+
+body {
+  color: var(--color-ivory);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(60deg, var(--color-green) 0%, var(--color-ivory) 50%, var(--color-coral) 100%);
+}
+
+h1, h2 { 
+  margin: 5px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  padding: 0;
+  border: 20px solid rgba(43, 43, 43, 0.8);
+  border-right: 12px solid rgba(43, 43, 43, 0.8);
+  background-color: rgba(43, 43, 43, 0.8);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  border-radius: 20px;
+  overflow: hidden;
+  width: 80%;
+  max-height: -webkit-fill-available;
+  min-height: fit-content;
+}
+
+img {
+  width: 400px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+span {
+  font-size: .8rem;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+::-webkit-scrollbar {
+  background-color: rgba(43, 43, 43, 0.8);
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.bs {
+  box-shadow: 10px 10px 10px var(--color-blue);
+}
+
+button {
+  margin-top: 20px;
+  width: 60%;
+  height: 40px;
+  background-color: rgba(177, 255, 206, 0.75);
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: rgba(38,217,103,1)
+}
+
+.cb {
+  width: 15px;
+  height: 15px;
+}
+
+#inp {
+  height: 1.5em;
+}
+
+iframe {
+  width: 50%;
+  height: 100%;
+}
