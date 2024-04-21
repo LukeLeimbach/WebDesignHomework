@@ -50,6 +50,7 @@
   </div>
 
   <!-- Script to update the scrollbar color based on the user's scroll state -->
+  <!-- Not too sure how I like the effect, but it took forever so I'm keeping it -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const rootStyle = document.documentElement.style;
@@ -72,10 +73,11 @@
       });
     });
 
+    // Forces DOM to update with new colors. This breaks scrolling via mouse :(
     function forceScrollbarUpdate() {
-      document.body.style.overflow = 'hidden'; // Hide scrollbars
-      void document.body.offsetHeight; // Force reflow
-      document.body.style.overflow = ''; // Re-show scrollbars
+      document.body.style.overflow = 'hidden';
+      void document.body.offsetHeight;
+      document.body.style.overflow = '';
     }
     </script>
 </body>
