@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Wall Music</title>
+  <title>Luke Leimbach</title>
   <link href="./style.css" rel="stylesheet" />
   <!-- Ionicons for nice UI -->
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -10,21 +10,13 @@
 </head>
 <body class="blue">
   <div class="header">
-    <h1 class="header-text">Wall Music</h1>
-    <div class="header-sub-container">
-      <h4 class="header-text">Dashboard</h4>
-      <h4 class="header-text">Setup</h4>
-      <h4 class="header-text">FAQ</h4>
-    </div>
-    <div class="header-sub-container">
-      <ion-icon name="add-circle-outline" size="large"></ion-icon>
-      <ion-icon name="person-circle-outline" size="large"></ion-icon>
-    </div>
+    <h1 class="header-text">Luke Leimbach</h1>
   </div>
   <div class="splash-top-container">
-    <h1>Wall Moment Music</h1>
-    <h2>Invite, Queue, Play</h2>
-    <div class="button"><h4>Get Started</h4></div>
+    <h1>Luke Leimbach</h1>
+    <h2>Full Stack Developer Portfolio</h2>
+    <h4><a target="_blank" href="https://www.github.com/LukeLeimbach">See my GitHub for more projects!</a></h4>
+    <!-- <div class="button"><h4>Get Started</h4></div> -->
   </div>
    
   <!-- Bottom colorful transition -->
@@ -39,18 +31,31 @@
   <div class="lower-container">
     <div class="lower-item-container">
       <div class="lower-item-text-container">
-        <h1 class="lower-title">Best Music Bot</h1>
-        <h4 class="lower-text">I like to make Discord bots in my free time. This bot is nearly done. It comes with a web app hosted on Firebase that stores and manages a music queue. You can search for song via the YouTube API to find songs so that you don't need to paste a link.<br><br>
-          To get the bot to work (in theory because it's not done), you need to long into the web app, click on the invite link, add the bot to your Discord server, and then you can start using the bot to listen to music.<br><br>
-          FILLER TEXT: Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolore laudantium placeat rerum dolorem maxime blanditiis sed accusantium doloremque! Est dicta hic perspiciatis eveniet molestias totam qui consequuntur fuga voluptatem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sit obcaecati impedit debitis dolor vitae incidunt rem repudiandae sint, quaerat id fugit nisi quidem fuga doloribus nam reprehenderit iste. Esse? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis autem dolore nostrum ipsam inventore quis dolorum architecto corrupti! Omnis, nostrum magnam? Quidem quae magnam pariatur et modi voluptas repudiandae beatae!</h4>
-        <div class="button"><h4>Invite me!</h4></div>
+        <h1 class="lower-title">Music Discord Bot</h1>
+        <h4 class="lower-text">
+          Much of my free time is spent tinkering with this bot. The problem that I 
+          see with many other bots is their clunky, non-intuitive UI and ambiguous 
+          commands. My bot aims to fix that problem by removing commands entirely
+           while providing users with the 
+          quality listening experience to which they are accustomed.
+          <br><br>
+          Wall Music has its own text channel. Instead of having to type /play, 
+          you can type directly into the text channel to have your song displayed.
+          Instead of clunky commands, update your bot's settings directly in the app.
+          <br><br>
+          Most bots do not give user's the option to reorder the queue, so Wall Music 
+          has it's own React based Web App! Users can search for songs
+          using the integrated YouTube Data v3 API, log in using Discord's Auth0 
+          feature, and play music in their server with more control than any other bot.
+
+        </h4>
+        <a href="https://github.com/LukeLeimbach/music-discord-bot" target="_blank"><div class="button"><h4 class="button-text">Check me out!</h4></div></a>
       </div>
-      <img src="./img/discord_bot.JPG">
+      <img src="./img/discord_bot.JPG" alt="Preview of Wall Music Bot's Embed">
     </div>
   </div>
 
   <!-- Script to update the scrollbar color based on the user's scroll state -->
-  <!-- Not too sure how I like the effect, but it took forever so I'm keeping it -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const rootStyle = document.documentElement.style;
